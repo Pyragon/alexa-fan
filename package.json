@@ -1,0 +1,23 @@
+{
+  "name": "alexa-fan",
+  "version": "1.0.0",
+  "description": "Script to control fan in the banquet room using alexa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Pyragon/alexa-fan.git"
+  },
+  "author": "Pyragon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pyragon/alexa-fan/issues"
+  },
+  "homepage": "https://github.com/Pyragon/alexa-fan#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "onoff": "^6.0.0"
+  }
+}
