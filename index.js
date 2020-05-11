@@ -9,7 +9,7 @@ let on = false;
 
 app.get('/', (req, res) => {
 	on=!on;
-	//relay.writeSync(on ? 1 : 0);
+	relay.writeSync(on ? 1 : 0);
 	let results = {
 		'success': true,
 		'on': on
